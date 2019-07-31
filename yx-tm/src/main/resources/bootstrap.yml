@@ -1,0 +1,14 @@
+server:
+  port: 7970
+
+yx:
+  nacos:
+    server-addr: 127.0.0.1:8848
+
+spring:
+  application:
+    name: tx-manager
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${yx.nacos.server-addr}
