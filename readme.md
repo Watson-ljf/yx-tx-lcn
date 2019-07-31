@@ -5,7 +5,7 @@
 #### 相关技术官网：
 1. [TX-LCN](https://www.txlcn.org/zh-cn/index.html):框架官网
 2. [NACOS](https://nacos.io/zh-cn/index.html):注册中心官网
-2. [MyBatis-Plus](https://nacos.io/zh-cn/index.html):MBP官网
+2. [MyBatis-Plus](https://mp.baomidou.com/):MBP官网
 
 #### 项目启动姿势：
 1. 以单例模式启动Nacos注册中心：sh startup.sh -m standalone 在register/nacos/bin下；
