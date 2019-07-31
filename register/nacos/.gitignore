@@ -1,3 +1,7 @@
 /logs/
 /bin/logs/
 /bin/*.log
+/data/derby-data/seg0/
+/data/derby-data/log/
+/data/derby-data/db.lck
+/data/derby-data/dbex.lck

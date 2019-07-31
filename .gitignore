@@ -5,3 +5,5 @@
 /yx-sa/target/
 /yx-sb/target/
 /yx-tm/target/
+/logs/*
+/derby.log
