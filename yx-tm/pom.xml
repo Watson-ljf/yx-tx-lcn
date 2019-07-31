@@ -10,6 +10,22 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>yx-tm</artifactId>
+    <version>${project.tm.version}</version>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <project.tm.version>1.0-SNAPSHOT</project.tm.version>
+            </properties>
+        </profile>
+        <profile>
+            <id>release</id>
+            <properties>
+                <project.tm.version>1.0</project.tm.version>
+            </properties>
+        </profile>
+    </profiles>
 
     <dependencies>
 
@@ -35,6 +51,17 @@
             <version>5.0.2.RELEASE</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>yylc-dev</id>
+            <url>http://10.100.5.141:8081/content/repositories/Snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>yylc-prod</id>
+            <url>http://10.100.5.141:8081/content/repositories/yylc-prod</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>

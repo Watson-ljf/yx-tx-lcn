@@ -23,6 +23,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <project.tm.version>1.0-SNAPSHOT</project.tm.version>
     </properties>
 
     <dependencyManagement>
@@ -83,4 +84,14 @@
         </dependencies>
 
     </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>aliyun-repos</id>
+            <url>https://maven.aliyun.com/repository/public</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
