@@ -31,6 +31,15 @@ spring:
     # 合并多个DruidDataSource的监控数据
     #useGlobalDataSourceStat: true
 
+# spring boot admin 配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
 
 mybatis-plus:
   # 如果是放在src/main/java目录下 classpath:/com/yourpackage/*/mapper/*Mapper.xml
@@ -70,4 +79,3 @@ mybatis-plus:
 tx-lcn:
   client:
     manager-address: 127.0.0.1:8070
-

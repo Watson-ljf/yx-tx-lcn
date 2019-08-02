@@ -7,3 +7,7 @@
 /yx-tm/target/
 /logs/*
 /derby.log
+/register/nacos/data/derby-data/log/
+/register/nacos/data/derby-data/seg0/
+/register/nacos/data/derby-data/tmp/
+/yx-monitor/yx-monitor.iml
